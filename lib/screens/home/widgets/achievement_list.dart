@@ -72,6 +72,29 @@ class AchievementsList extends StatelessWidget {
               ),
             ),
           ],
+        ),
+        const SizedBox(height: 6),
+        Row(
+          crossAxisAlignment: CrossAxisAlignment.center,
+          mainAxisAlignment: MainAxisAlignment.spaceBetween,
+          children: const [
+            Text(
+              "# of wins",
+              style: TextStyle(
+                color: Color.fromARGB(255, 160, 9, 115),
+                fontSize: 22,
+                fontWeight: FontWeight.w500,
+              ),
+            ),
+            Text(
+              "3",
+              style: TextStyle(
+                color: Colors.yellowAccent,
+                fontSize: 34,
+                fontWeight: FontWeight.w500,
+              ),
+            ),
+          ],
         )
       ],
     );

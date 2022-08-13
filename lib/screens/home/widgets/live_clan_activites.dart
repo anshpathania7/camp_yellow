@@ -14,6 +14,7 @@ class LiveClanActivites extends StatelessWidget {
       physics: const NeverScrollableScrollPhysics(),
       itemCount: 2,
       shrinkWrap: true,
+      padding: const EdgeInsets.only(top: 6.0),
       itemBuilder: (context, i) => Padding(
         padding: const EdgeInsets.only(top: 24.0),
         child: Stack(

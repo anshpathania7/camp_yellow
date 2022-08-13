@@ -37,7 +37,7 @@ class ClanCard extends StatelessWidget {
                 color: Colors.black.withOpacity(0.7),
               ),
               child: Padding(
-                padding: const EdgeInsets.all(8.0),
+                padding: const EdgeInsets.all(14.0),
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: const [

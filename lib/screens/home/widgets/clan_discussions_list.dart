@@ -20,8 +20,9 @@ class ClanDiscussionsList extends StatelessWidget {
       physics: const NeverScrollableScrollPhysics(),
       itemCount: _messageCount.length,
       shrinkWrap: true,
+      padding: const EdgeInsets.only(top: 12.0),
       itemBuilder: (context, i) => Padding(
-        padding: const EdgeInsets.only(top: 12.0),
+        padding: const EdgeInsets.only(top: 6.0),
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
