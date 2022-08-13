@@ -57,7 +57,9 @@ class HomeBody extends StatelessWidget {
                 borderRadius: BorderRadius.circular(100),
                 child: Image(
                   image: AssetImages.userImage,
-                  fit: BoxFit.contain,
+                  fit: BoxFit.cover,
+                  height: 50,
+                  width: 50,
                 ),
               )),
         ],
